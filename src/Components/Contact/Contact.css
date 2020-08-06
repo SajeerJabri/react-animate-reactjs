@@ -1,0 +1,29 @@
+.formName{
+    display: flex;
+    margin: 50px 0;
+}
+.emailPhone{
+    display: flex;
+    margin: 50px 0;
+}
+.checkBox{
+    display: flex;
+    margin: 50px 0;
+}
+.form button{
+    margin: 0 50px;
+}
+@media screen and (max-width:650px){
+    .formName{
+        display: flex;
+      flex-wrap: wrap;
+    }
+    .emailPhone{
+        display: flex;
+      flex-wrap: wrap;
+    }
+    .checkBox{
+        display: flex;
+      flex-wrap: wrap;
+    }
+}

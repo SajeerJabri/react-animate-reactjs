@@ -1,0 +1,92 @@
+header {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  overflow: hidden;
+}
+.headerText h1 {
+  color: black;
+  letter-spacing: 2px;
+  z-index: 20;
+}
+.headerText h6 {
+  color: black;
+  font-weight: 650;
+  letter-spacing: 0.5px;
+  z-index: 20;
+}
+.headerBtn button {
+  margin: 10px 10px;
+  z-index: 20;
+}
+.football {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  overflow: hidden;
+  z-index: -20;
+}
+.secondSection {
+  margin-top: 100px;
+}
+.bgEffect {
+  width: 100%;
+  height: 10%;
+}
+
+.sectionDescription {
+  padding: 20px 50px;
+}
+.sectionDescription p {
+  font-weight: 500;
+}
+.thirdSection {
+  width: 90%;
+}
+.fifaGame .fifaPlayer {
+  height: 300px;
+  width: 80%;
+}
+.fifaGame .fifaLogo {
+  width: 80px;
+  height: 80px;
+}
+.fifaGameCol {
+  position: relative;
+}
+.fifaGameCol .fifaPlayer{
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.gameHover {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.gameHover h5 {
+  margin: 15px;
+}
+.fifaGameCol:hover .fifaPlayer{
+    opacity: 0.3;
+}
+.fifaGameCol:hover .gameHover{
+    opacity: 1;
+}
